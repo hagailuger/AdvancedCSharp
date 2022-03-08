@@ -34,6 +34,7 @@ namespace LearningLinq
 				new Employee("shuki",20,"Male",18000),
 				new Employee("avi",45,"Male",20000),
 				new Employee("michal",40,"Female",28000),
+				new Employee("dina",30,"Female",20000)
 			};
 		}
 	}
