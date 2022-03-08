@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Peter Claus",
+    "age": 40,
+    "gender": "“Male”",
+    "salary": 61000
+  },
+  {
+    "name": "Jose Mond",
+    "age": 35,
+    "gender": "“male”",
+    "salary": 62000
+  },
+  {
+    "name": "Helen Gant",
+    "age": 38,
+    "gender": "“Female”",
+    "salary": 38000
+  },
+  {
+    "name": "Jo Parker",
+    "age": 42,
+    "gender": "“Male”",
+    "salary": 52000
+  },
+  {
+    "name": "Alex Mueller",
+    "age": 22,
+    "gender": "“Male”",
+    "salary": 39000
+  },
+  {
+    "name": "Abbi Black",
+    "age": 53,
+    "gender": "“female”",
+    "salary": 56000
+  },
+  {
+    "name": "Mike Mockson",
+    "age": 51,
+    "gender": "“Male”",
+    "salary": 82000
+  }
+]
