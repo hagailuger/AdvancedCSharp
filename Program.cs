@@ -1,4 +1,5 @@
-
+namespace MyEx
+{
 	class Program
     {
         static void Main(string[] args)
@@ -34,10 +35,12 @@
        }
     }
 
-    public sealed class TaskItem
+	//only part of the code
+    public  class TaskItem
     {
         public int Id { get; }
         public string Title { get; private set; }
         public DateTime? DueDate { get; private set; }
         public bool IsDone { get; private set; }
 	}
+}
