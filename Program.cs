@@ -12,19 +12,31 @@ namespace MyEx
 			
 			board.Add(t1);
 			board.Add(t2);
-			board.Add(t3);
-			
-			var toComplete = board.FindById(2);
-			if (toComplete != null)
+			var isSuccess = board.Add(t3);
+			if (!isSuccess)
 			{
-				toComplete.MarkDone();
+			    Console.WriteLine("failed to add item");
+			}
+			
+			Console.WriteLine($"{board.Count} items");
+			
+			var firstItem = board.FindById(1);
+			firstItem.Rename("buy bread");
+			
+			var secondItem = board.FindById(2);
+			
+			if (secondItem != null)
+			{
+			    secondItem.MarkDone();
 			}
 			
 			Console.WriteLine("=== All Tasks ===");
 			board.PrintAll();
+			
 			board.PrintPendingSummary();
 
 				/*	
+						3 items
 						  === All Tasks ===
 						#1: Buy milk (Due: 28/08/2025) X
 						#2: Send report (Due: 01/09/2025) V
