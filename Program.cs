@@ -21,9 +21,15 @@
 			
 			Console.WriteLine("=== All Tasks ===");
 			board.PrintAll();
-			
-			var pending = board.GetPendingCount();
-			var summary = pending == 0 ? "All done 🎉" : $"{pending} task(s) pending";
-			Console.WriteLine($"\nSummary: {summary}");
+			board.PrintPendingSummary();
+
+				/*	
+						  === All Tasks ===
+						#1: Buy milk (Due: 28/08/2025) X
+						#2: Send report (Due: 01/09/2025) V
+						#3: Call supplier X
+						
+						Summary: 2 task(s) pending
+				*/
        }
     }
