@@ -33,3 +33,11 @@
 				*/
        }
     }
+
+    public sealed class TaskItem
+    {
+        public int Id { get; }
+        public string Title { get; private set; }
+        public DateTime? DueDate { get; private set; }
+        public bool IsDone { get; private set; }
+	}
