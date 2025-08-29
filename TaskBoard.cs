@@ -11,8 +11,6 @@ namespace Learning
         private readonly TaskItem[] _items;
         private int _count;
 
-        public int MyProperty { get; init; }
-
         public TaskBoard(int capacity)
         {
             _items = new TaskItem[capacity];
